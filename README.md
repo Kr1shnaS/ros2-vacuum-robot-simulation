@@ -10,7 +10,7 @@ This project implements a autonomous vacuum cleaning robot that navigates throug
 - Simulator: Gazebo Harmonic
 
 # Build Instructions
-'''colcon build --packages-select vacuum_robot_sim
+```colcon build --packages-select vacuum_robot_sim
 source install/setup.bash
 
 This command starts Gazebo Harmonic, spawns the robot, and sets up the communication bridge:
@@ -19,4 +19,4 @@ ros2 launch vacuum_robot_sim sim.launch.py
 
 This command runs the Python node that processes LiDAR data to avoid obstacles (for now obstacles is defined manually):
 source install/setup.bash
-ros2 run vacuum_robot_sim avoidance.py'''
+ros2 run vacuum_robot_sim avoidance.py```
