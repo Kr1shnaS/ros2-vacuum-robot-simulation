@@ -1,6 +1,7 @@
 # ros2-vacuum-robot-simulation
 ROS 2 Jazzy–based vacuum cleaning robot simulation featuring LiDAR-driven obstacle avoidance, path tracking, and autonomous navigation in Gazebo.
-Milestone 1:Environment Setup and obstacle avoidance
+
+Milestone 1:Environment Setup and obstacle avoidance.
 
 # Overview
 This project implements a autonomous vacuum cleaning robot that navigates through a grid environment, avoids obstacles using simulated sensors, and tracks its path in real time using standard ROS topics and RViz visualization.
